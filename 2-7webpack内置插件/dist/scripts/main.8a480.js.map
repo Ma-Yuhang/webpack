@@ -1,0 +1,1 @@
+{"version":3,"file":"scripts/main.8a480.js","mappings":";;;;;AAAA;AACA;AACA,oB","sources":["webpack://test/./src/index.js"],"sourcesContent":["console.log(PI);\r\nconsole.log(VERSION);\r\nconsole.log(DOMAIN);"],"names":[],"sourceRoot":""}

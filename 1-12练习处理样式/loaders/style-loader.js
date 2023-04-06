@@ -6,4 +6,5 @@ module.exports = function (sourceCode) {
     document.head.append(style)
     module.exports = \`${sourceCode}\``
   return code
+  // return `module.exports = \`${sourceCode}\``
 }
