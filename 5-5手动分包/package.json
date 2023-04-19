@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "dll": "webpack --config ./webpack.config.dll.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.4",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

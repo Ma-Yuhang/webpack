@@ -1,15 +1,22 @@
-const { CleanWebpackPlugin } = require("clean-webpack-plugin")
+// const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
 module.exports = {
   mode: "development",
   devtool: "source-map",
   output: {
-    filename: "scripts/[name].[chunkhash:5].js"
+    filename: "scripts/[name].[chunkhash:5].js",
+    // clear: true
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html"
+    }),
+    new webpack.DefinePlugin({
+      PI: 'Math.PI',
+      VERSION: '"1.0.0"',
+      DOMAIN: '"duyi"'
     })
   ],
   devServer:{
