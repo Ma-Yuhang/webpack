@@ -1,0 +1,1 @@
+(()=>{var o={648:()=>{Math.random()}},r={};function t(e){var s=r[e];if(void 0!==s)return s.exports;var n=r[e]={exports:{}};return o[e](n,n.exports,t),n.exports}(()=>{"use strict";t(648),console.log((1,2,console.log("add"),3))})()})();
