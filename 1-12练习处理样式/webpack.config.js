@@ -7,5 +7,9 @@ module.exports = {
         use: ['./loaders/style-loader']
       }
     ]
+  },
+  output: {
+    library: '$',
+    libraryTarget: 'var'
   }
 }

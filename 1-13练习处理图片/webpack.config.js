@@ -7,7 +7,7 @@ module.exports = {
         use: {
           loader: './loaders/img-loader',
           options: {
-            limit: 3000, // 这个options是自己配置的 代表3000字节
+            limit: 1024 * 200, // 这个options是自己配置的 代表200KB
             filename: 'imgs/[name]-[contenthash:5].[ext]'
           }
         }

@@ -7,7 +7,7 @@ module.exports = class Plugin {
       let fileList = []
       for (const key in compilation.assets) {
         let content = `文件名字: ${key}
-文件大小: ${compilation.assets[key].size()/1000}KB`
+文件大小: ${compilation.assets[key].size()/1024}KB`
         fileList.push(content)
       }
       let str = fileList.join('\n\n')

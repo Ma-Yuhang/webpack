@@ -6,6 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
+var $;
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -15,7 +16,7 @@
   \***********************/
 /***/ ((module) => {
 
-eval("const style = document.createElement('style')\n    style.innerHTML = `body {\r\n  background-color: aqua;\r\n}\r\n`\n    document.head.append(style)\n    module.exports = `body {\r\n  background-color: aqua;\r\n}\r\n`\n\n//# sourceURL=webpack://test/./src/index.css?");
+eval("const style = document.createElement('style')\n    style.innerHTML = `body {\r\n  background-color: aqua;\r\n}\r\n`\n    document.head.append(style)\n    module.exports = `body {\r\n  background-color: aqua;\r\n}\r\n`\n\n//# sourceURL=webpack://$/./src/index.css?");
 
 /***/ }),
 
@@ -26,7 +27,7 @@ eval("const style = document.createElement('style')\n    style.innerHTML = `body
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\nconsole.log('index');\n\n//# sourceURL=webpack://test/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ('aaa');\r\nconsole.log('index');\r\n\n\n//# sourceURL=webpack://$/./src/index.js?");
 
 /***/ })
 
@@ -103,6 +104,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	$ = __webpack_exports__;
 /******/ 	
 /******/ })()
 ;

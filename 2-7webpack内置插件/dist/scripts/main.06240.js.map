@@ -1,0 +1,1 @@
+{"version":3,"file":"scripts/main.06240.js","mappings":";;;;;AAAA,YAAY,OAAE;AACd,YAAY,OAAO;AACnB,YAAY,MAAM;AAClB;AACA;AACA,IAAI,KAAU,EAAE,E","sources":["webpack://test/./src/index.js"],"sourcesContent":["console.log(PI);\r\nconsole.log(VERSION);\r\nconsole.log(DOMAIN);\r\nconsole.log(211);\r\n\r\nif (module.hot) {\r\n  module.hot.accept();\r\n}"],"names":[],"sourceRoot":""}

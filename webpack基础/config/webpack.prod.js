@@ -79,9 +79,9 @@ module.exports = {
             exclude: /node_modules/,
             use: [
               {
-                loader: 'thread-loader', // 开启多进程
+                loader: 'thread-loader', // 开启多线程
                 options: {
-                  works: threads // 设置进程数量
+                  works: threads // 设置线程数量
                 }
               },
               {
