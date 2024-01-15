@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "html-webpack-plugin": "^5.5.1",
     "webpack": "^5.79.0",
+    "webpack-bundle-analyzer": "^4.10.1",
     "webpack-cli": "^5.0.1"
   }
 }
