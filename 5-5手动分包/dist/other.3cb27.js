@@ -1,23 +1,23 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/lodash/lodash.js":
-/*!***************************************************************************!*\
-  !*** delegated ./node_modules/lodash/lodash.js from dll-reference lodash ***!
-  \***************************************************************************/
+/***/ "./node_modules/.pnpm/jquery@3.7.1/node_modules/jquery/dist/jquery.js":
+/*!****************************************************************************************************************!*\
+  !*** delegated ./node_modules/.pnpm/jquery@3.7.1/node_modules/jquery/dist/jquery.js from dll-reference jquery ***!
+  \****************************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = (__webpack_require__(/*! dll-reference lodash */ "dll-reference lodash"))(486);
+module.exports = (__webpack_require__(/*! dll-reference jquery */ "dll-reference jquery"))(692);
 
 /***/ }),
 
-/***/ "./node_modules/jquery/dist/jquery.js":
-/*!********************************************************************************!*\
-  !*** delegated ./node_modules/jquery/dist/jquery.js from dll-reference jquery ***!
-  \********************************************************************************/
+/***/ "./node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/lodash.js":
+/*!*************************************************************************************************************!*\
+  !*** delegated ./node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/lodash.js from dll-reference lodash ***!
+  \*************************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = (__webpack_require__(/*! dll-reference jquery */ "dll-reference jquery"))(755);
+module.exports = (__webpack_require__(/*! dll-reference lodash */ "dll-reference lodash"))(699);
 
 /***/ }),
 
@@ -116,20 +116,21 @@ var __webpack_exports__ = {};
 (() => {
 "use strict";
 /*!**********************!*\
-  !*** ./src/index.js ***!
+  !*** ./src/other.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/.pnpm/jquery@3.7.1/node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "./node_modules/.pnpm/lodash@4.17.21/node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
 const res = lodash__WEBPACK_IMPORTED_MODULE_1___default().isArray(jquery__WEBPACK_IMPORTED_MODULE_0___default()('.red'))
-console.log(res);
+console.log(res, 'other')
+
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=main.108b6.js.map
+//# sourceMappingURL=other.3cb27.js.map

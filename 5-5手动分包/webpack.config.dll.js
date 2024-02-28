@@ -8,7 +8,7 @@ module.exports = {
     lodash: ['lodash']
   },
   output: {
-    filename: 'dll/[name].js',
+    filename: 'dll/[name].dll.js',
     library: '[name]' // 每个bundle暴露的全局变量名
   },
   plugins: [

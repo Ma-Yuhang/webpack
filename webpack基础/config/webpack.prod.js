@@ -107,10 +107,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: './static/css/main.css'
     }),
-    // new CssMinimizerPlugin(),
-    // new TerserWebpackPlugin({
-    //   parallel: threads // 
-    // })
   ],
   optimization: {
     // 建议在这里配置压缩的操作
